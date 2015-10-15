@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>AngularJS with Slim framework</title>
+    
+  </head>
+ 
+  <body ng-app="codeschunks">
+  
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-3">
+            <ul class="nav nav-stacked">
+                <li><a href="#showusers"> Show Users </a></li>
+                <li><a href="#addnewuser"> Add New User </a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9">
+        <h1>AngularJS with Slim framework</h1>
+            <ng-view></ng-view>
+        </div>
+        </div>
+    </div>
+    <script src="js/angular.min.js"></script>
+	<script src="js/angular-route.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

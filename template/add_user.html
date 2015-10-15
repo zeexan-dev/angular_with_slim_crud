@@ -1,0 +1,10 @@
+<div ng-controller="addUserCtrl">
+	<h2>Add User</h2>
+	<form ng-submit="addUser(data)">
+		Name: <input type="text" name="username" ng-model="data.username">
+		Fullname: <input type="text" name="fullname" ng-model="data.fullname">
+		<input type="submit" value="Submit">
+	</form>
+	<p>{{message}}</p>
+	<p>{{msg_submitted}}</p>
+</div>
