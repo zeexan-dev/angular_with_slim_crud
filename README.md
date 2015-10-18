@@ -1,6 +1,6 @@
 # angular_with_slim_crud
-CRUD using AngularJS with Slim framework
-This is a simple application based on AngularJS and Slim framework
+CRUD using AngularJS with Slim framework.<br>
+This is a simple application based on AngularJS and Slim framework.
 
 ## Getting Started
 <ul>
